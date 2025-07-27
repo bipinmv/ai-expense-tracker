@@ -54,7 +54,6 @@ async function addExpenseRecord(formData: FormData): Promise<RecordResult> {
 
 	// Get logged in user
 	const { userId } = await auth();
-	console.log({ userId }); // Log userId for debugging
 
 	// Check for user
 	if (!userId) {
