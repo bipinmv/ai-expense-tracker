@@ -36,9 +36,6 @@ export default async function HomePage() {
 							{/* User Details - responsive text and layout */}
 							<div className="flex-1 text-center sm:text-left">
 								<div className="flex flex-col sm:flex-row items-center sm:items-start justify-center sm:justify-start gap-2 sm:gap-3 mb-3">
-									<div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-xl flex items-center justify-center shadow-lg">
-										<span className="text-white text-sm sm:text-lg">👋</span>
-									</div>
 									<h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-gray-100">
 										Welcome Back, {user.firstName}!
 									</h2>

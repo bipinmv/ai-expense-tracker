@@ -27,13 +27,10 @@ export default function Navbar() {
 							className="flex items-center gap-2 sm:gap-3 flex-shrink-0 group transition-all duration-300 hover:scale-105"
 							onClick={closeMobileMenu}
 						>
-							<div className="w-7 h-7 sm:w-8 sm:h-8 md:w-10 md:h-10 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-lg sm:rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:rotate-3">
-								<span className="text-white text-xs sm:text-sm md:text-lg font-bold">
-									💰
-								</span>
-							</div>
 							<span className="text-sm sm:text-base md:text-lg lg:text-xl font-bold bg-gradient-to-r from-emerald-600 via-green-500 to-teal-500 bg-clip-text text-transparent">
-								<span className="hidden sm:inline">ExpenseTracker AI</span>
+								<span className="hidden sm:inline text-xl">
+									ExpenseTracker AI
+								</span>
 								<span className="sm:hidden">ExpenseTracker</span>
 							</span>
 						</Link>
