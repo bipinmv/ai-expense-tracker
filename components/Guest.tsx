@@ -172,9 +172,7 @@ const Guest = () => {
 						</div>
 						<h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 dark:text-gray-100 px-2 sm:px-0">
 							What Our Users{" "}
-							<span className="text-purple-600 dark:text-purple-400">
-								Say
-							</span>
+							<span className="text-purple-600 dark:text-purple-400">Say</span>
 						</h2>
 						<p className="text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto px-2 sm:px-0">
 							Join thousands of satisfied users who have transformed their

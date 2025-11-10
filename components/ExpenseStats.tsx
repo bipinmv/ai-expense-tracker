@@ -38,7 +38,7 @@ const ExpenseStats = async () => {
 								Average Daily Spending
 							</p>
 							<div className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
-								${averageExpense.toFixed(2)}
+								₹{averageExpense.toFixed(2)}
 							</div>
 							<div className="inline-flex items-center gap-2 bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 px-2 py-1 rounded-full text-xs font-medium">
 								<span className="w-1.5 h-1.5 bg-purple-500 dark:bg-purple-400 rounded-full"></span>
@@ -62,7 +62,7 @@ const ExpenseStats = async () => {
 										Highest
 									</h4>
 									<p className="text-lg font-bold text-red-600 dark:text-red-300">
-										{bestExpense !== undefined ? `$${bestExpense}` : "No data"}
+										{bestExpense !== undefined ? `₹${bestExpense}` : "No data"}
 									</p>
 								</div>
 							</div>
@@ -82,7 +82,7 @@ const ExpenseStats = async () => {
 									</h4>
 									<p className="text-lg font-bold text-green-600 dark:text-green-300">
 										{worstExpense !== undefined
-											? `$${worstExpense}`
+											? `₹${worstExpense}`
 											: "No data"}
 									</p>
 								</div>
