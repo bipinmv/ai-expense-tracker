@@ -28,7 +28,7 @@ export default async function HomePage() {
 									alt={`${user.firstName}&#39;s profile`}
 									className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl border-2 border-white dark:border-gray-600 shadow-lg"
 								/>
-								<div className="absolute -bottom-1 -right-1 w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-green-400 to-green-500 rounded-full border-2 border-white dark:border-gray-800 flex items-center justify-center">
+								<div className="absolute -bottom-1 -right-1 w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-purple-400 to-purple-500 rounded-full border-2 border-white dark:border-gray-800 flex items-center justify-center">
 									<span className="text-white text-xs">✓</span>
 								</div>
 							</div>
@@ -47,8 +47,8 @@ export default async function HomePage() {
 								</p>
 								{/* Mobile-optimized badge grid */}
 								<div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center sm:justify-start">
-									<div className="bg-gradient-to-r from-emerald-50 to-green-50 dark:from-emerald-900/30 dark:to-green-900/30 border border-emerald-100 dark:border-emerald-800 px-3 py-2 rounded-xl flex items-center gap-2 justify-center sm:justify-start">
-										<div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-emerald-500 to-green-500 rounded-lg flex items-center justify-center flex-shrink-0">
+									<div className="bg-gradient-to-r from-purple-50 to-violet-50 dark:from-purple-900/30 dark:to-violet-900/30 border border-purple-100 dark:border-purple-800 px-3 py-2 rounded-xl flex items-center gap-2 justify-center sm:justify-start">
+										<div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-purple-500 to-violet-500 rounded-lg flex items-center justify-center flex-shrink-0">
 											<span className="text-white text-xs">📅</span>
 										</div>
 										<div className="text-center sm:text-left">
@@ -60,8 +60,8 @@ export default async function HomePage() {
 											</span>
 										</div>
 									</div>
-									<div className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/30 dark:to-emerald-900/30 border border-green-100 dark:border-green-800 px-3 py-2 rounded-xl flex items-center gap-2 justify-center sm:justify-start">
-										<div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-green-500 to-emerald-500 rounded-lg flex items-center justify-center flex-shrink-0">
+									<div className="bg-gradient-to-r from-violet-50 to-purple-50 dark:from-violet-900/30 dark:to-purple-900/30 border border-violet-100 dark:border-violet-800 px-3 py-2 rounded-xl flex items-center gap-2 justify-center sm:justify-start">
+										<div className="w-5 h-5 sm:w-6 sm:h-6 bg-gradient-to-r from-violet-500 to-purple-500 rounded-lg flex items-center justify-center flex-shrink-0">
 											<span className="text-white text-xs">⚡</span>
 										</div>
 										<div className="text-center sm:text-left">

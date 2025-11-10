@@ -22,17 +22,12 @@ const ExpenseStats = async () => {
 		return (
 			<div className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-4 sm:p-6 rounded-2xl shadow-xl border border-gray-100/50 dark:border-gray-700/50 hover:shadow-2xl">
 				<div className="flex items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-					<div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-emerald-500 via-green-500 to-teal-500 rounded-xl flex items-center justify-center shadow-lg">
-						<span className="text-white text-sm sm:text-lg">📊</span>
-					</div>
-					<div>
-						<h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-gray-100">
-							Expense Statistics
-						</h3>
-						<p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
-							Your spending insights and ranges
-						</p>
-					</div>
+					<h3 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-gray-100">
+						Expense Statistics
+					</h3>
+					<p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
+						Your spending insights and ranges
+					</p>
 				</div>
 
 				<div className="space-y-3 sm:space-y-4">
@@ -45,8 +40,8 @@ const ExpenseStats = async () => {
 							<div className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">
 								${averageExpense.toFixed(2)}
 							</div>
-							<div className="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 px-2 py-1 rounded-full text-xs font-medium">
-								<span className="w-1.5 h-1.5 bg-emerald-500 dark:bg-emerald-400 rounded-full"></span>
+							<div className="inline-flex items-center gap-2 bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 px-2 py-1 rounded-full text-xs font-medium">
+								<span className="w-1.5 h-1.5 bg-purple-500 dark:bg-purple-400 rounded-full"></span>
 								Based on {validDays} days with expenses
 							</div>
 						</div>

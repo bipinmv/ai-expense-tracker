@@ -218,7 +218,7 @@ const BarChart = ({ records }: { records: Record[] }) => {
 					}
 				},
 				grid: {
-					color: isDark ? "#374151" : "#e0e0e0" // Dark mode grid lines
+					display: false // Hide y-axis grid lines
 				},
 				beginAtZero: true // Start y-axis at zero for expenses
 			}
